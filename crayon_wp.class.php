@@ -3,8 +3,8 @@
 Plugin Name: Crayon Syntax Highlighter (PHP 7.3 Update)
 Plugin URI: https://github.com/glennpenridge/crayon-syntax-highlighter
 Description: Updated to support PHP 7.3+. Supports multiple languages, themes, highlighting from a URL, local file or post text.
-Version: _2.8.5_beta
-Author: Aram Kocharyan
+Version: 2.8.6
+Author: Glenn Penridge, Aram Kocharyan
 Author URI: http://aramk.com/
 Text Domain: crayon-syntax-highlighter
 Domain Path: /trans/
@@ -34,10 +34,10 @@ if (CRAYON_THEME_EDITOR) {
 require_once('crayon_settings_wp.class.php');
 
 crayon_set_info(array(
-	'Version' => '_2.7.2_beta',
-	'Date' => '25th April, 2015',
-	'AuthorName' => 'Aram Kocharyan',
-	'PluginURI' => 'https://github.com/aramk/crayon-syntax-highlighter',
+	'Version' => '2.8.6',
+	'Date' => '27 March, 2020',
+	'AuthorName' => 'Glenn Penridge, Aram Kocharyan',
+	'PluginURI' => 'https://github.com/glennpenridge/crayon-syntax-highlighter',
 ));
 
 /* The plugin class that manages all other classes and integrates Crayon with WP */
